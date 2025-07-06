@@ -173,7 +173,7 @@ if "DYNO" in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("FQDN", "")
+URL = environ.get("FQDN", "https://defeated-fanni-freehub459-c55f47f2.koyeb.app/")
 
 # Commands
 admin_cmds = [
